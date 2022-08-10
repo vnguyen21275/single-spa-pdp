@@ -8,6 +8,8 @@ System.import('single-spa').then(function (singleSpa) {
   </style>
   <div class="product-image">
     <img style="height: 300px;"></img>
+    <h2>Sksksksksksksksk</h2>
+    <p>Here is doggo. Doggo woof. Awah awah.</p>
   </div>
   `;
 

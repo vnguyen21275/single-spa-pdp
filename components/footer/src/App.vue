@@ -12,7 +12,7 @@ export default {
 
 <style>
 .footer {
-  background: lightsalmon;
+  background: seagreen;
   padding: 1em;
   font-weight: bold;
 }
