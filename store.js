@@ -1,8 +1,14 @@
 window.pdp = {};
 
 window.pdp.cart = {
+  items: [],
   count: 0,
   addToCart() {
+    if (window.pdp.cart.items[window.pdp.product.name] === undefined) {
+      window.pdp.cart.items[window.pdp.product.name] = 0;
+    }
+
+    window.pdp.cart.items[window.pdp.product.name] += 1;
     window.pdp.cart.count += 1;
     window.dispatchEvent(new Event('cartChange'));
   },
